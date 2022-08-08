@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Caveat:wght@700&family=Indie+Flower&family=Press+Start+2P&display=swap');
+
+.centro_clowns:hover{
+    font-family: "Caveat";
+    font-size: 500%;
+    color: #9925f8;
+
+    -webkit-animation: infinite;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+
+}
+.centro_clowns{
+    font-family: "Caveat";
+    font-size: 500%;
+    margin-top: 3%;
+    
+}
+.img img{
+   width: 9rem;
+   margin: 25px 125px 0px 40px;
+   
+}
+.nav_cor{
+    
+}

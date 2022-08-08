@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Caveat:wght@700&family=Indie+Flower&family=Press+Start+2P&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+
+}
+.header{
+    margin: 0;
+    padding: 0;justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+    text-decoration: none;
+    position: relative;
+    padding-top: 16px;
+}
+hr {
+    border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, rgba(0,0,0,255) , transparent);  
+}
+
+#hr1 {
+    border: 0;
+    margin-top: 5rem;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, rgba(0,0,0,255) , transparent);  
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#icon1{
+    height: 90px;
+    width: 100px;
+    justify-content: right;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+
+}
+#icon1:hover{
+    fill: #9925f8;
+}
+#icon2{
+    width: 2000;
+    
+}
+
+#texto{
+    box-sizing: border-box;
+    font-family: 'Caveat';
+    font-size: 50px;
+    color:  #000000;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+#texto:hover{
+    color: blueviolet;
+}
+#nav-option{
+    box-sizing: border-box;
+    font-family: 'Caveat';
+    font-size: 25px;
+    color:  #000000;
+    text-decoration: none;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+#nav-option:hover{
+    color: blueviolet;
+}
+.gus a{
+    margin: 10px;
+
+}
+.gus{
+    margin: 25px 40px 0px 40px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#image{
+    padding-top: 9%;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+#image:hover{
+    fill: #9925f8;
+}

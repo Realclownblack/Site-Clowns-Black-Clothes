@@ -1,0 +1,15 @@
+#texto{
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Caveat';
+    font-size: 50px;
+    color:  #000000;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+#texto:hover{
+    color: blueviolet;
+}
